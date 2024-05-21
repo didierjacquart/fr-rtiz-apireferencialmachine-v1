@@ -1,0 +1,152 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.Api.UnitTest", "BDM.ReferencialMachine.Api.UnitTest\BDM.ReferencialMachine.Api.UnitTest.csproj", "{F840C5E5-E855-4947-A36D-BB4ABDDF6A29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.Core", "BDM.ReferencialMachine.Core\BDM.ReferencialMachine.Core.csproj", "{5F77F9A0-A485-4909-8C05-2A994CEF3458}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.Api", "BDM.ReferencialMachine.Api\BDM.ReferencialMachine.Api.csproj", "{79270C64-B35C-42AE-8BA8-EBBB076FD7A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.Core.UnitTest", "BDM.ReferencialMachine.Core.UnitTest\BDM.ReferencialMachine.Core.UnitTest.csproj", "{FBBCDB5B-D8A7-4816-B1C7-B032A3737F55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{69238FC4-1B18-42B6-A482-5285A5D03E5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{82B369F6-14B7-449A-B8E9-75C439496248}"
+	ProjectSection(SolutionItems) = preProject
+		..\Scripts\Release\ard-project.json = ..\Scripts\Release\ard-project.json
+		..\Scripts\Release\DEMO-parameters.json = ..\Scripts\Release\DEMO-parameters.json
+		..\Scripts\Release\DEV-parameters.json = ..\Scripts\Release\DEV-parameters.json
+		..\Scripts\Release\PREPROD-parameters.json = ..\Scripts\Release\PREPROD-parameters.json
+		..\Scripts\Release\PROD-parameters.json = ..\Scripts\Release\PROD-parameters.json
+		..\Scripts\Release\RECETTE-parameters.json = ..\Scripts\Release\RECETTE-parameters.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentification", "Authentification", "{59E8B362-2AB0-4070-9DB7-8264B5EDDF34}"
+	ProjectSection(SolutionItems) = preProject
+		..\Scripts\Release\Authentication\agent-maam.json = ..\Scripts\Release\Authentication\agent-maam.json
+		..\Scripts\Release\Authentication\client-maam.json = ..\Scripts\Release\Authentication\client-maam.json
+		..\Scripts\Release\Authentication\courtier-maam.json = ..\Scripts\Release\Authentication\courtier-maam.json
+		..\Scripts\Release\Authentication\ressource-server-maam.json = ..\Scripts\Release\Authentication\ressource-server-maam.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE960B27-BA57-4D93-95D2-0B476B81E1A4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documentation\fr-rtiz-apireferencialmachine-v1.md = ..\Documentation\fr-rtiz-apireferencialmachine-v1.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.DataAccess", "BDM.ReferencialMachine.DataAccess\BDM.ReferencialMachine.DataAccess.csproj", "{25075209-CDF9-42FA-A2A0-570E3119C2E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.DataAccess.UnitTest", "BDM.ReferencialMachine.DataAccess.UnitTest\BDM.ReferencialMachine.DataAccess.UnitTest.csproj", "{4D7CA76E-6BE9-4434-9B52-9AF4633B60F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDM.ReferencialMachine.Api.IntegrationTest", "BDM.ReferencialMachine.Api.IntegrationTest\BDM.ReferencialMachine.Api.IntegrationTest.csproj", "{B4CD0AE8-2C44-499E-9B03-4ABADA742939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{8C636C48-7485-4F60-A035-E0AD61A23F68}"
+	ProjectSection(SolutionItems) = preProject
+		..\Scripts\SQL\00_drop_tab_mchn.sql = ..\Scripts\SQL\00_drop_tab_mchn.sql
+		..\Scripts\SQL\01_cre_tab_mchn.sql = ..\Scripts\SQL\01_cre_tab_mchn.sql
+		..\Scripts\SQL\02_add_indexes.sql = ..\Scripts\SQL\02_add_indexes.sql
+		..\Scripts\SQL\03_InsertEditionClauses.sql = ..\Scripts\SQL\03_InsertEditionClauses.sql
+		..\Scripts\SQL\04_InsertFamilies.sql = ..\Scripts\SQL\04_InsertFamilies.sql
+		..\Scripts\SQL\05_InsertMachine.sql = ..\Scripts\SQL\05_InsertMachine.sql
+		..\Scripts\SQL\07_InsertMachineClause.sql = ..\Scripts\SQL\07_InsertMachineClause.sql
+		..\Scripts\SQL\08_InsertMachineFamilies.sql = ..\Scripts\SQL\08_InsertMachineFamilies.sql
+		..\Scripts\SQL\09_InsertPricingRates.sql = ..\Scripts\SQL\09_InsertPricingRates.sql
+		..\Scripts\SQL\10_update_MachineClauses_Vol_Content.sql = ..\Scripts\SQL\10_update_MachineClauses_Vol_Content.sql
+		..\Scripts\SQL\11_InsertFamilies_Reorder.sql = ..\Scripts\SQL\11_InsertFamilies_Reorder.sql
+		..\Scripts\SQL\12_Alter_Pricing_Rate.sql = ..\Scripts\SQL\12_Alter_Pricing_Rate.sql
+		..\Scripts\SQL\13_InsertPricingRates.sql = ..\Scripts\SQL\13_InsertPricingRates.sql
+		..\Scripts\SQL\14_Alter_MachineSpecifcation_Rate.sql = ..\Scripts\SQL\14_Alter_MachineSpecifcation_Rate.sql
+		..\Scripts\SQL\15_Update_MachineSpecifcation_Rate.sql = ..\Scripts\SQL\15_Update_MachineSpecifcation_Rate.sql
+		..\Scripts\SQL\16_Alter_EditionClauses.sql = ..\Scripts\SQL\16_Alter_EditionClauses.sql
+		..\Scripts\SQL\17_Drop_MachineEditionClause.sql = ..\Scripts\SQL\17_Drop_MachineEditionClause.sql
+		..\Scripts\SQL\18_Alter_MachineSpecification.sql = ..\Scripts\SQL\18_Alter_MachineSpecification.sql
+		..\Scripts\SQL\19_Insert_EditionClause.sql = ..\Scripts\SQL\19_Insert_EditionClause.sql
+		..\Scripts\SQL\20_Update_MachineSpecification_Codes_Clauses.sql = ..\Scripts\SQL\20_Update_MachineSpecification_Codes_Clauses.sql
+		..\Scripts\SQL\21_Update_Clause.sql = ..\Scripts\SQL\21_Update_Clause.sql
+		..\Scripts\SQL\22_Alter_MachineSpecification_IsTransportable.sql = ..\Scripts\SQL\22_Alter_MachineSpecification_IsTransportable.sql
+		..\Scripts\SQL\23_Insert_MachineSpecification.sql = ..\Scripts\SQL\23_Insert_MachineSpecification.sql
+		..\Scripts\SQL\24_Insert_Families.sql = ..\Scripts\SQL\24_Insert_Families.sql
+		..\Scripts\SQL\25_Insert_Pricing.sql = ..\Scripts\SQL\25_Insert_Pricing.sql
+		..\Scripts\SQL\26_Update_Clause_Type.sql = ..\Scripts\SQL\26_Update_Clause_Type.sql
+		..\Scripts\SQL\27_Refresh_Clauses.sql = ..\Scripts\SQL\27_Refresh_Clauses.sql
+		..\Scripts\SQL\28_Refresh_Machines.sql = ..\Scripts\SQL\28_Refresh_Machines.sql
+		..\Scripts\SQL\29_fix_Refresh_Machines.sql = ..\Scripts\SQL\29_fix_Refresh_Machines.sql
+		..\Scripts\SQL\30_fix_Missing_Machine.sql = ..\Scripts\SQL\30_fix_Missing_Machine.sql
+		..\Scripts\SQL\31_fix_refresh_pricingRate.sql = ..\Scripts\SQL\31_fix_refresh_pricingRate.sql
+		..\Scripts\SQL\32_alter_and_create_Referencial_PARK.sql = ..\Scripts\SQL\32_alter_and_create_Referencial_PARK.sql
+		..\Scripts\SQL\33_Insert_Referencial_PARK.sql = ..\Scripts\SQL\33_Insert_Referencial_PARK.sql
+		..\Scripts\SQL\34_Insert_Parc_Clauses.sql = ..\Scripts\SQL\34_Insert_Parc_Clauses.sql
+		..\Scripts\SQL\35_Update_Clauses.sql = ..\Scripts\SQL\35_Update_Clauses.sql
+		..\Scripts\SQL\36_upate_clauses_and_score_on_machine.sql = ..\Scripts\SQL\36_upate_clauses_and_score_on_machine.sql
+		..\Scripts\SQL\37_Refresh_Machine_Inventory.sql = ..\Scripts\SQL\37_Refresh_Machine_Inventory.sql
+		..\Scripts\SQL\38_Alter_Clause_PV.sql = ..\Scripts\SQL\38_Alter_Clause_PV.sql
+		..\Scripts\SQL\39_Insert_Clause_PV.sql = ..\Scripts\SQL\39_Insert_Clause_PV.sql
+		..\Scripts\SQL\40_Alter_MachineSpecification_Clauses_PV.sql = ..\Scripts\SQL\40_Alter_MachineSpecification_Clauses_PV.sql
+		..\Scripts\SQL\41_Insert_MachineSpecification_PV.sql = ..\Scripts\SQL\41_Insert_MachineSpecification_PV.sql
+		..\Scripts\SQL\42_Add_Missing_Clauses.sql = ..\Scripts\SQL\42_Add_Missing_Clauses.sql
+		..\Scripts\SQL\43_Alter_MachineSpecification_Clauses_Code_PV.sql = ..\Scripts\SQL\43_Alter_MachineSpecification_Clauses_Code_PV.sql
+		..\Scripts\SQL\44_update_RiskPrecisions.sql = ..\Scripts\SQL\44_update_RiskPrecisions.sql
+		..\Scripts\SQL\45_Insert_MachineSpecification_PV.sql = ..\Scripts\SQL\45_Insert_MachineSpecification_PV.sql
+		..\Scripts\SQL\46_Update_GTL.sql = ..\Scripts\SQL\46_Update_GTL.sql
+		..\Scripts\SQL\47_fix_labels_PV.sql = ..\Scripts\SQL\47_fix_labels_PV.sql
+		..\Scripts\SQL\48_fix_labels_PV_toiture.sql = ..\Scripts\SQL\48_fix_labels_PV_toiture.sql
+		..\Scripts\SQL\49_Update_MachineSpecifcation_Labels.sql = ..\Scripts\SQL\49_Update_MachineSpecifcation_Labels.sql
+		..\Scripts\SQL\50_Add_Update_MachineSpecifcation.sql = ..\Scripts\SQL\50_Add_Update_MachineSpecifcation.sql
+		..\Scripts\SQL\51_Update_MachineSpecifcation_Description.sql = ..\Scripts\SQL\51_Update_MachineSpecifcation_Description.sql
+		..\Scripts\SQL\52_Update_EditionClause_Description_PV.sql = ..\Scripts\SQL\52_Update_EditionClause_Description_PV.sql
+		..\Scripts\SQL\53_Update_EditionClause_Description_PV.sql = ..\Scripts\SQL\53_Update_EditionClause_Description_PV.sql
+		..\Scripts\SQL\54_Alter_MachineSpecification_Fo_AtoutsLocation.sql = ..\Scripts\SQL\54_Alter_MachineSpecification_Fo_AtoutsLocation.sql
+		..\Scripts\SQL\55_InsertAtoutsLocation.sql = ..\Scripts\SQL\55_InsertAtoutsLocation.sql
+		..\Scripts\SQL\56_Alter_MachineSpecification_AddCurrencyCode.sql = ..\Scripts\SQL\56_Alter_MachineSpecification_AddCurrencyCode.sql
+		..\Scripts\SQL\57_Update_MachineRateForAtoutLoc.sql = ..\Scripts\SQL\57_Update_MachineRateForAtoutLoc.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F840C5E5-E855-4947-A36D-BB4ABDDF6A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F840C5E5-E855-4947-A36D-BB4ABDDF6A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F840C5E5-E855-4947-A36D-BB4ABDDF6A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F840C5E5-E855-4947-A36D-BB4ABDDF6A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F77F9A0-A485-4909-8C05-2A994CEF3458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F77F9A0-A485-4909-8C05-2A994CEF3458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F77F9A0-A485-4909-8C05-2A994CEF3458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F77F9A0-A485-4909-8C05-2A994CEF3458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79270C64-B35C-42AE-8BA8-EBBB076FD7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79270C64-B35C-42AE-8BA8-EBBB076FD7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79270C64-B35C-42AE-8BA8-EBBB076FD7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79270C64-B35C-42AE-8BA8-EBBB076FD7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBCDB5B-D8A7-4816-B1C7-B032A3737F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBCDB5B-D8A7-4816-B1C7-B032A3737F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBCDB5B-D8A7-4816-B1C7-B032A3737F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBCDB5B-D8A7-4816-B1C7-B032A3737F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25075209-CDF9-42FA-A2A0-570E3119C2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25075209-CDF9-42FA-A2A0-570E3119C2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25075209-CDF9-42FA-A2A0-570E3119C2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25075209-CDF9-42FA-A2A0-570E3119C2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7CA76E-6BE9-4434-9B52-9AF4633B60F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7CA76E-6BE9-4434-9B52-9AF4633B60F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7CA76E-6BE9-4434-9B52-9AF4633B60F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7CA76E-6BE9-4434-9B52-9AF4633B60F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CD0AE8-2C44-499E-9B03-4ABADA742939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CD0AE8-2C44-499E-9B03-4ABADA742939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CD0AE8-2C44-499E-9B03-4ABADA742939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CD0AE8-2C44-499E-9B03-4ABADA742939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82B369F6-14B7-449A-B8E9-75C439496248} = {69238FC4-1B18-42B6-A482-5285A5D03E5A}
+		{59E8B362-2AB0-4070-9DB7-8264B5EDDF34} = {82B369F6-14B7-449A-B8E9-75C439496248}
+		{8C636C48-7485-4F60-A035-E0AD61A23F68} = {69238FC4-1B18-42B6-A482-5285A5D03E5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBF5E625-5047-444F-8C33-4B096C073EC0}
+	EndGlobalSection
+EndGlobal

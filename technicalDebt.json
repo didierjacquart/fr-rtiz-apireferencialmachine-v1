@@ -1,0 +1,45 @@
+{
+	"RepositoryName": "fr-rtiz-apireferencialmachine-v1",
+	"ComponentName": "fr-rtiz-apireferencialmachine-v1-vs",
+	"ComponentType": "service", 
+	"Product": "BDM_INSURANCE",	
+	"Code": {
+		"SonarKey": "af.wsiard.fr.rtiz.apireferencialmachine.v1",
+		"LifeCycleKey": "af.wsiard.fr.rtiz.apireferencialmachine.v1"
+	},
+	
+	"Practice": {
+		"DotNetVersion" : "net8.0",
+		"TlsVersion" : "1.2",
+		"Https" : true,
+		"Maamv2" : true,
+		"No_Stacktrace" : true,
+		"No_FrameworkHeaders": true,
+		"EncryptedConnectionString": true,
+		"No_HardcodedPassword":false,
+		"No_SqlInjection":true,
+		"HealthCheck_Version":true,
+		"HealthCheck_Services":false,
+		"HealthCheck_Database":false,
+		"BlueGreen":false,
+		"AlwaysOn":true,
+		"Rest":true,
+		"AsyncAwait":true,
+		"No_MQ":true,
+		"Osia":true,
+		"DAT":true,
+		"Cloud":true,
+		"Virtualization":true,
+		"Swagger":true,
+		"Contract_Validation":true,
+		"CleanArchitecture_Interface": true,
+		"CleanArchitecture_Core": true,
+		"CleanArchitecture_Gateways": false,
+		"KeyFeatures_BDD": false
+	},
+	
+	"Structure": {
+		"StructuralDebtDetail": [""]
+	}
+}
+
